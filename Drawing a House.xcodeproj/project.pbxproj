@@ -15,6 +15,7 @@
 		A251829419DC2F5900D2A31A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A251829319DC2F5900D2A31A /* Images.xcassets */; };
 		A251829719DC2F5900D2A31A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A251829519DC2F5900D2A31A /* LaunchScreen.xib */; };
 		A25182A319DC2F5900D2A31A /* Drawing_a_HouseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A25182A219DC2F5900D2A31A /* Drawing_a_HouseTests.m */; };
+		A25182AE19DC2F8400D2A31A /* HouseView.m in Sources */ = {isa = PBXBuildFile; fileRef = A25182AD19DC2F8400D2A31A /* HouseView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		A251829C19DC2F5900D2A31A /* Drawing a HouseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Drawing a HouseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A25182A119DC2F5900D2A31A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A25182A219DC2F5900D2A31A /* Drawing_a_HouseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Drawing_a_HouseTests.m; sourceTree = "<group>"; };
+		A25182AC19DC2F8400D2A31A /* HouseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HouseView.h; sourceTree = "<group>"; };
+		A25182AD19DC2F8400D2A31A /* HouseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HouseView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 				A251828D19DC2F5900D2A31A /* ViewController.h */,
 				A251828E19DC2F5900D2A31A /* ViewController.m */,
 				A251829019DC2F5900D2A31A /* Main.storyboard */,
+				A25182AC19DC2F8400D2A31A /* HouseView.h */,
+				A25182AD19DC2F8400D2A31A /* HouseView.m */,
 				A251829319DC2F5900D2A31A /* Images.xcassets */,
 				A251829519DC2F5900D2A31A /* LaunchScreen.xib */,
 				A251828A19DC2F5900D2A31A /* Drawing_a_House.xcdatamodeld */,
@@ -222,6 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A25182AE19DC2F8400D2A31A /* HouseView.m in Sources */,
 				A251828919DC2F5900D2A31A /* AppDelegate.m in Sources */,
 				A251828619DC2F5900D2A31A /* main.m in Sources */,
 				A251828F19DC2F5900D2A31A /* ViewController.m in Sources */,
